@@ -11,13 +11,13 @@ const SideBar = () => {
       {/*  */}
       <ul className={styles.menu}>
         <li>
-          <Link to="/">ホーム</Link>
+          <Link to="/profile">プロフィール</Link>
         </li>
         <li>
-          <Link to="/customer">顧客リスト</Link>
+          <Link to="/gakusyuurireki">学習履歴</Link>
         </li>
         <li>
-          <Link to="/chart">チャート</Link>
+          <Link to="/mypage">マイページ</Link>
         </li>
         <li>
           <Link to="/logout">ログアウト</Link>

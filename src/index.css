@@ -96,7 +96,6 @@ video {
   vertical-align: baseline;
 }
 
-
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -114,6 +113,8 @@ section {
 
 body {
   line-height: 1;
+  background-color: #464444;
+  color: aliceblue;
 }
 
 ol,
@@ -130,11 +131,17 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap');
+
+body {
+  font-family: "IBM Plex Sans JP", sans-serif;
 }

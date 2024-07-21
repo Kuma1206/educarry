@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./style.module.scss";
-import Header from "../../layout/Header";
+// import Header from "../../layout/Header";
 import { Link } from "react-router-dom";
 
 const NotFound404 = () => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div className={styles.notfound}>
         <div className={styles.content}>
           <h2>お探しのページが見つかりません</h2>

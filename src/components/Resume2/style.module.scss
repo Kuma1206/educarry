@@ -1,0 +1,112 @@
+
+
+/*タブ切り替え全体のスタイル*/
+.tabs {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 1000px;
+  margin: 0 auto;
+  color: #000;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+/*タブのスタイル*/
+.tab_item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100%/4);
+  height: 20px;
+  border-bottom: 3px solid #bfc2c2;
+  background-color: #fff;
+  line-height: 50px;
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+  /* display: block; */
+  float: left;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  border-radius: 0 10px 0 0;
+}
+.tab_item:hover {
+  opacity: 0.75;
+  background-color: #e9cece;
+  
+}
+
+/*ラジオボタンを全て消す*/
+input[name="tab_item"] {
+  display: none;
+}
+
+/*タブ切り替えの中身のスタイル*/
+.tab_content {
+  height: 100%;
+  display: none;
+  padding: 40px 40px 0;
+  clear: both;
+  overflow: hidden;
+  background-color: #eedbdb;
+}
+
+
+/*選択されているタブのコンテンツのみを表示*/
+#all:checked ~ #all_content,
+#syorui:checked ~ #syorui_content,
+#itiji:checked ~ #itiji_content,
+#niji:checked ~ #niji_content,
+#saiyou:checked ~ #saiyou_content,
+#fusaiyou:checked ~ #fusaiyou_content
+{
+  display: block;
+}
+
+/*選択されているタブのスタイルを変える*/
+.tabs input:checked + .tab_item {
+  background-color: #e7edf3;
+  color: #000;
+}
+
+/* フッターを画面の一番下に固定 */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #494848;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer #area1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer button {
+    width: 90px;
+    height: 30px;
+    margin: 20px;
+    border: none;
+    background-color: rgb(102, 96, 96);
+    border-radius: 3px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: rgb(141, 135, 135);
+}
+
+label {
+  height: 100px;
+}

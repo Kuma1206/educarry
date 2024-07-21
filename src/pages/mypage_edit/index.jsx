@@ -1,19 +1,19 @@
 import React from "react";
 import styles from "./style.module.scss";
 import SideBar from "../../layout/SideBar";
-import Profile from "../../components/Profile";
+import Rirekisho_edit from "../gakusyuurireki/rirekisho/rirekisho_edit";
 
-const Mypage = () => {
+const Mypage_edit = () => {
   return (
     <>
       <div className={styles.home}>
         <SideBar />
         <div className={styles.contents}>
-          <Profile />
+          <Rirekisho_edit />
         </div>
       </div>
     </>
   );
 };
 
-export default Mypage;
+export default Mypage_edit;

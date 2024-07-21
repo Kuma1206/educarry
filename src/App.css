@@ -1,7 +1,13 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  background-color: #464444;
+}
+
+#root { 
+  margin: 0;
+  /* padding: 2rem; */
+  /* display: flex; */
+  /* justify-content: center; */
+  width: 100%;
   text-align: center;
 }
 
@@ -40,3 +46,14 @@
 .read-the-docs {
   color: #888;
 }
+
+/* App.css */
+.gg-file.custom-icon {
+  font-size: 12px; /* アイコンのサイズを変更 */
+  width: 12px;
+  height: 14px;
+}
+
+/* .app {
+  display: flex;
+} */
