@@ -54,6 +54,12 @@ body {
   height: 14px;
 }
 
+.gg-folder.custom-icon {
+  font-size: 12px; /* アイコンのサイズを変更 */
+  width: 18px;
+  height: 14px;
+}
+
 /* .app {
   display: flex;
 } */

@@ -9,7 +9,6 @@ const Rirekisho1_read = () => {
     <>
       <div className={styles.home}>
         <SideBar />
-
         <div>
           <div className={styles.btitle}>
             <h2 className={styles.title}>
@@ -28,9 +27,16 @@ const Rirekisho1_read = () => {
                 </tr>
               </thead>
               <tbody>
-                <tr className={styles.trbox}>
+                <tr
+                  className={styles.trbox}
+                  onClick={() => (window.location.href = "/kojinjoho_edit")}
+                >
                   <td className={styles.tdtext}>
-                    <input type="checkbox" className={styles.checkbox} />
+                    <input
+                      type="checkbox"
+                      className={styles.checkbox}
+                      onClick={(e) => e.stopPropagation()}
+                    />
                   </td>
                   <td className={styles.aicon}>
                     <i className="gg-file custom-icon"></i>
@@ -38,15 +44,25 @@ const Rirekisho1_read = () => {
                   <td className={styles.tdtext}>個人情報</td>
                   <td className={styles.tdtext}>2024-07-18</td>
                   <td className={styles.tdtext}>
-                    <select className={styles.pldown}>
+                    <select
+                      className={styles.pldown}
+                      onClick={(e) => e.stopPropagation()}
+                    >
                       <option value="public">公開</option>
                       <option value="private">非公開</option>
                     </select>
                   </td>
                 </tr>
-                <tr className={styles.trbox}>
+                <tr
+                  className={styles.trbox}
+                  onClick={() => (window.location.href = "/gakureki_edit")}
+                >
                   <td className={styles.tdtext}>
-                    <input type="checkbox" className={styles.checkbox} />
+                    <input
+                      type="checkbox"
+                      className={styles.checkbox}
+                      onClick={(e) => e.stopPropagation()}
+                    />
                   </td>
                   <td className={styles.aicon}>
                     <i className="gg-file custom-icon"></i>
@@ -54,23 +70,36 @@ const Rirekisho1_read = () => {
                   <td className={styles.tdtext}>学歴</td>
                   <td className={styles.tdtext}>2024-07-18</td>
                   <td className={styles.tdtext}>
-                    <select className={styles.pldown}>
+                    <select
+                      className={styles.pldown}
+                      onClick={(e) => e.stopPropagation()}
+                    >
                       <option value="public">公開</option>
                       <option value="private">非公開</option>
                     </select>
                   </td>
                 </tr>
-                <tr className={styles.trbox}>
+                <tr
+                  className={styles.trbox}
+                  onClick={() => (window.location.href = "/shokureki_edit")}
+                >
                   <td className={styles.tdtext}>
-                    <input type="checkbox" className={styles.checkbox} />
+                    <input
+                      type="checkbox"
+                      className={styles.checkbox}
+                      onClick={(e) => e.stopPropagation()}
+                    />
                   </td>
                   <td className={styles.aicon}>
                     <i className="gg-file custom-icon"></i>
                   </td>
                   <td className={styles.tdtext}>職歴</td>
-                  <td className={styles.tdtext}>2024-07-18</td>
+                  <td className={styles.tdtext}>2024-07-18</td> 
                   <td className={styles.tdtext}>
-                    <select className={styles.pldown}>
+                    <select
+                      className={styles.pldown}
+                      onClick={(e) => e.stopPropagation()}
+                    >
                       <option value="public">公開</option>
                       <option value="private">非公開</option>
                     </select>

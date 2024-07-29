@@ -19,7 +19,12 @@
     "react": "^18.3.1",
     "react-calendar": "^5.0.0",
     "react-dom": "^18.3.1",
+    "react-hamburger-menu": "^1.2.1",
+    "react-qr-code": "^2.0.15",
+    "react-responsive": "^10.0.0",
     "react-router-dom": "^6.24.1",
+    "react-transition-group": "^4.4.5",
+    "react-ymd-date-select": "^0.3.0",
     "sass": "^1.77.6"
   },
   "devDependencies": {

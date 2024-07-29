@@ -1,0 +1,236 @@
+.home {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 200px 1fr;
+  background-color: #464444;
+  color: rgb(203, 204, 204);
+  // width: 100%;
+  // height: 100vh;
+}
+
+.title {
+  padding: 20px;
+}
+
+.btitle {
+  display: flex;
+  justify-content: start;
+}
+
+
+.t-area {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 2px;
+  margin: 0;
+}
+
+.kategori {
+  display: flex;
+  justify-content: end;
+  width: 100px;
+  padding: 10px;
+  padding-right: 10px;
+  //   margin: 5px;
+}
+
+input {
+  height: 25px;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 10p;
+}
+
+#umare {
+  width: 120px;
+  height: 20px;
+}
+
+#sei {
+  height: 25px;
+}
+
+#nenrei {
+  height: 25px;
+  width: 50px;
+}
+
+#zyusho {
+  width: 350px;
+}
+
+#e-mail {
+  width: 220px;
+}
+
+.area1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 60px;
+  color: #fff;
+  font-weight: 550;
+  /* background-color: rgb(192, 188, 188); */
+}
+
+button {
+  width: 60px;
+  height: 30px;
+  margin: 20px;
+  border: none;
+  background-color: rgb(102, 96, 96);
+  border-radius: 3px;
+  color: aliceblue;
+}
+
+button:hover {
+  width: 60px;
+  height: 30px;
+  margin: 20px;
+  border: none;
+  background-color: rgb(141, 135, 135);
+  border-radius: 3px;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+#kensaku {
+  display: flex;
+  justify-content: start;
+  cursor: pointer;
+}
+
+#modoru {
+  width: 100px;
+}
+
+.area2 {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h5 {
+  padding: 0;
+  margin: 0;
+}
+
+.parea {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.textarea {
+  width: 400px;
+}
+
+.titletext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 550;
+}
+
+textarea {
+  padding: 10px;
+}
+
+/* 本体 */
+.trash {
+  font-size: 8px;
+  position: relative;
+  width: 0.9em;
+  height: 1.2em;
+  border-left: 0.1em solid #fff;
+  border-right: 0.1em solid #fff;
+  border-bottom: 0.1em solid #fff;
+  border-radius: 0 0 0.1em 0.1em;
+  background: linear-gradient(to bottom, #fff 0%, #fff 100%) 0.2em 0.2em,
+    linear-gradient(to bottom, #fff 0%, #fff 100%) 0.4em 0.2em,
+    linear-gradient(to bottom, #fff 0%, #fff 100%) 0.6em 0.2em;
+  background-size: 0.1em 0.8em;
+  background-repeat: no-repeat;
+}
+/* 蓋 */
+.trash::before {
+  content: "";
+  position: absolute;
+  top: -0.1em;
+  left: -0.2em;
+  width: 1.3em;
+  height: 0.1em;
+  background-color: #fff;
+}
+/* 取っ手 */
+.trash::after {
+  content: "";
+  position: absolute;
+  top: -0.3em;
+  left: 0.1em;
+  width: 0.5em;
+  height: 0.2em;
+  border-top: 0.1em solid #fff;
+  border-left: 0.1em solid #fff;
+  border-right: 0.1em solid #fff;
+  border-radius: 0.1em 0.1em 0 0;
+}
+
+#text-area {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.b-text {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  padding: 10px;
+}
+
+.textarea2 {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.dateSelectors {
+  display: flex;
+  gap: 10px;
+}
+
+select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.nen {
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.getu {
+  border-radius: 50px;
+  margin: 10px;
+}

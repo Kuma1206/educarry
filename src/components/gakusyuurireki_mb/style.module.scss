@@ -1,0 +1,247 @@
+body {
+  background-color: #fff;
+}
+
+.zenbu {
+  background-color: #fff;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  padding: 5px 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  color: #000;
+}
+
+.mainbox {
+  width: 100%;
+  display: flex;
+  // justify-content: center;
+  // align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.contents {
+  padding: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.boxmyresume {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 50px;
+}
+
+.bbutton {
+  width: 100%;
+  height: 50px;
+  margin: 0px;
+  // border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(241, 178, 178);
+  background-color: transparent;
+  color: black;
+  // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.bbutton:hover {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(231, 138, 138);
+}
+
+.btext {
+  width: auto;
+  background-color: transparent;
+  color: black;
+}
+
+.btext:hover {
+  background-color: transparent;
+  color: black;
+  width: auto;
+}
+
+// 表のCSS
+.title {
+  padding: 5px;
+  color: #000;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid #181717;
+  padding: 8px;
+  margin: 10px;
+  height: 30px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #181717;
+  padding: 8px;
+  height: 30px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.tdtext {
+  // border: 1px solid #181717;
+  // padding: 8px;
+  height: 20px;
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  z-index: 901;
+}
+
+.tdtext2 {
+  // border: 1px solid #181717;
+  // padding: 8px;
+  height: 30px;
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  z-index: 900;
+  font-size: 10px;
+  background-color: none;
+}
+
+.rirekishobox {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.thbox {
+  height: 1px;
+}
+
+.thtext {
+  width: 100px;
+  height: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.aicon {
+  height: 40px;
+  width: 5%;
+  text-align: center;
+  vertical-align: middle;
+  color: #727070;
+}
+
+tr {
+  height: 50px;
+}
+
+.btitle {
+  display: flex;
+  justify-content: start;
+  padding-left: 10px;
+  background-color: #fff;
+}
+
+.hyoutotle {
+  width: 100%;
+}
+
+.checkbox {
+  margin: 0px 0px;
+  font-size: larger;
+}
+
+thead {
+  border-width: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+.pldown {
+  width: 80px;
+  height: 25px;
+  color: #000;
+  background-color: #fff;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.trbox {
+  border-bottom: 1px solid #616060;
+}
+
+.trbox:hover {
+  background-color: #fccaca;
+  cursor: pointer;
+}
+
+.trmainbox {
+  border-bottom: 1px solid #8a8787;
+}
+
+.popUp {
+  position: absolute;
+  top: -120%;
+  left: 0;
+  background-color: none;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.popUpEnter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.popUpEnterActive {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 200ms, transform 200ms;
+}
+
+.popUpExit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.popUpExitActive {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 200ms, transform 200ms;
+}
+
+.backbutton {
+  width: 100px;
+  padding: 10px;
+}

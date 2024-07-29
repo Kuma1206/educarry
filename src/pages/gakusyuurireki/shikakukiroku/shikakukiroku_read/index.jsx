@@ -44,7 +44,6 @@ const Shikakukiroku_read = () => {
                     </select>
                   </td>
                 </tr>
-
               </tbody>
             </table>
           </div>

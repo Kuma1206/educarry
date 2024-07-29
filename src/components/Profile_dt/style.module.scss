@@ -1,0 +1,205 @@
+.home {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  background-color: #464444;
+  color: rgb(203, 204, 204);
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto; /* 子要素の高さに応じて自動調整 */
+  margin: 30px;
+  flex: 1; /* フレックスアイテムとして、コンテンツの高さに応じて伸縮 */
+}
+
+.pbox {
+  width: 70%;
+  height: 100%;
+  z-index: 999;
+  // overflow: auto; 
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-color: #afafaf;
+  border-width: 5px;
+  border-style: solid; /* 追加する行 */
+  border-radius: 50%;
+  background-color: rgb(83, 82, 82);
+}
+
+.jikopr {
+  display: flex;
+  justify-content: end;
+  width: 100px;
+  // height: 100px;
+}
+
+.skiil {
+  display: flex;
+  justify-content: end;
+  width: 100px;
+  // height: 100px;
+}
+
+.textarea1 {
+  display: flex;
+  width: 70%;
+  height: 10px;
+  margin: 10px;
+  z-index: 999;
+}
+
+.textarea2 {
+  display: flex;
+  width: 70%;
+  height: 10px;
+  margin: 10px;
+  z-index: 999;
+}
+
+
+.plofilebox1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: auto;
+  margin: 10px;
+  z-index: 999;
+}
+
+.plofilebox2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: auto;
+  margin: 10px;
+  z-index: 999;
+}
+
+.resume {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+  border-top: 1px solid #afafaf;
+  border-style: solid;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  z-index: 999;
+}
+
+button {
+  font-size: 16px;
+  width: 25%;
+  height: 50px;
+  margin: 20px;
+  border-radius: 5px;
+  border-width: 0;
+}
+
+.rirekisho {
+  font-size: 16px;
+  width: 25%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 5px;
+  border-width: 0;
+  background-color: rgb(179, 235, 235);
+  color: black;
+  text-decoration: none;
+}
+
+.rirekisho:hover {
+  font-size: 16px;
+  width: 25%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 5px;
+  border-width: 0;
+  background-color: rgb(107, 207, 207);
+  color: black;
+}
+
+.syokureki {
+  font-size: 16px;
+  width: 25%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 5px;
+  border-width: 0;
+  color: black;
+  background-color: rgb(245, 248, 74);
+  text-decoration: none;
+}
+
+.syokureki:hover {
+
+  background-color: rgb(220, 223, 40);
+}
+
+.port {
+  font-size: 16px;
+  width: 25%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 5px;
+  border-width: 0;
+  color: black;
+  background-color: rgb(183, 238, 139);
+  text-decoration: none;
+}
+
+.port:hover {
+  background-color: rgb(140, 209, 83);
+}
+
+.oitachi {
+  font-size: 16px;
+  width: 25%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 5px;
+  border-width: 0;
+  color: black;
+  background-color: rgb(226, 161, 226);
+  text-decoration: none;
+}
+
+.oitachi:hover {
+  background-color: rgb(197, 132, 197);
+}
+
+.plofilebox {
+  display: flex;
+}
+
+.resumebox{
+  width: 100%;
+}

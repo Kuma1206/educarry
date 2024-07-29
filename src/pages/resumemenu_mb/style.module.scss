@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgb(235, 228, 228);
+  border: none;
+  text-decoration: none;
+}
+
+br {
+  padding-bottom: 10px;
+}
+
+.boxmyresumetop {
+  margin-bottom: 20px;
+}
+
+.boxmyresume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: rgb(8, 8, 8);
+}
+
+.bbutton1,
+.bbutton2,
+.bbutton3,
+.bbutton4,
+.bbutton5,
+.bbutton6,
+.bbutton7,
+.bbutton8 {
+  width: 17%;
+  aspect-ratio: 1 / 1;
+  margin: 10px;
+  border-style: none;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.bbutton1 a,
+.bbutton2 a,
+.bbutton3 a,
+.bbutton4 a,
+.bbutton5 a,
+.bbutton6 a,
+.bbutton7 a,
+.bbutton8 a {
+  color: #000;
+}
+
+.bbutton1 {
+  background-color: #ecadad;
+}
+
+.bbutton2 {
+  background-color: #a0eca4;
+}
+
+.bbutton3 {
+  background-color: #f7e57f;
+}
+
+.bbutton4 {
+  background-color: #92cdf0;
+}
+
+.bbutton5 {
+  background-color: #ecadad;
+}
+
+.bbutton6 {
+  background-color: #a0eca4;
+}
+
+.bbutton7 {
+  background-color: #f7e57f;
+}
+
+.bbutton8 {
+  background-color: #92cdf0;
+}
+
+.bbutton:hover {
+  // width: 10%;
+  // height: 50px;
+  // border-radius: 5px;
+  background-color: rgb(211, 123, 123);
+  color: aliceblue;
+}
+
+.btext {
+  width: auto;
+  background-color: transparent;
+  color: black;
+}
+
+.btext:hover {
+  background-color: transparent;
+  color: black;
+  width: auto;
+}

@@ -1,16 +1,19 @@
 import React from "react";
-import styles from "./style.module.scss";
-import SideBar from "../../layout/SideBar";
-import Profile from "../../components/Profile";
+import Profile_dt from "../../components/Profile_dt";
+import { useMediaQuery } from "react-responsive";
+import Profile_mb from "../../components/Profile_mb";
 
 const Mypage = () => {
+    const isDesktop = useMediaQuery({ query: "(min-width: 768px)" });
+
   return (
     <>
-      <div className={styles.home}>
-        <SideBar />
-        <div className={styles.contents}>
-          <Profile />
-        </div>
+      <div>
+        {" "}
+        {/* 768px以上の時は、デスクトップ用のコンポーネントを表示 */}
+        {isDesktop && <Profile_dt />}
+        {/* 768px未満の時は、 モバイル用のコンポーネントを表示 */}
+        {!isDesktop && <Profile_mb />}
       </div>
     </>
   );
