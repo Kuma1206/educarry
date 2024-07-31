@@ -23,8 +23,9 @@
 .hamburger {
   display: none;
   position: fixed;
-  top: 10px;
+  top: 14px;
   left: 10px;
+  padding-left: 12px;
   z-index: 1001;
   background: none;
   border: none;
@@ -37,15 +38,15 @@
 
   span {
     display: block;
-    width: 25px;
+    width: 26px;
     height: 2px;
     background-color: #636060;
-    margin: 6px 0;
+    margin: 8px 0;
     transition: 0.4s;
   } 
 
   &.open .bar:nth-child(1) {
-    transform: rotate(-45deg) translate(-5px, 5px);
+    transform: rotate(-45deg) translate(-7px,8px);
   }
 
   &.open .bar:nth-child(2) {
@@ -53,7 +54,7 @@
   }
 
   &.open .bar:nth-child(3) {
-    transform: rotate(45deg) translate(-5px, -5px);
+    transform: rotate(45deg) translate(-6px, -7px);
   }
 }
 

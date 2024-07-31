@@ -20,7 +20,7 @@ const Profile_mb = () => {
   return (
     <>
       <div className={styles.home}>
-        <div>
+        <div className={styles.hamburgermenu}>
           <SideBar_mb />
         </div>
         <div className={styles.profile}>
