@@ -1,26 +1,25 @@
 body {
-    background-color: #efefef;
+  background-color: #efefef;
 }
 .App {
-    max-width: 580px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
+  max-width: 580px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
 }
 
 .cards {
-    width: 100%;
-    height: 40px;
-    border: 1px solid #eee;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    display: flex;
-    align-items: center;
-    padding: 20px 10px;
-    box-sizing: border-box;
-    background-color: #fff;
-    color: #000;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
 }
-
 
 body {
   background-color: #fff;
@@ -134,12 +133,12 @@ td {
 
 .tdtext {
   // border: 1px solid #181717;
-  // padding: 8px;
+  // padding-top: 20px;
   height: 20px;
   text-align: left;
   vertical-align: middle;
   padding-left: 20px;
-  padding-top: 20px;
+  // padding-top: 20px;
   display: flex;
   align-items: center;
   z-index: 901;
@@ -148,18 +147,30 @@ td {
 
 .tdtext2 {
   // border: 1px solid #181717;
-  // padding: 8px;
-  height: 30px;
+  // padding-top: 15px;
+  height: 12px;
   text-align: left;
   vertical-align: middle;
   padding-left: 20px;
-  padding-top: 10px;
+  // padding-top: 10px;
   display: flex;
   align-items: center;
   z-index: 900;
   font-size: 10px;
   background-color: none;
   color: #000;
+}
+
+.tdtext3 {
+  height: 50px;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+.tdbox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .rirekishobox {
@@ -185,6 +196,34 @@ td {
   text-align: center;
   vertical-align: middle;
   color: #727070;
+}
+
+.aicon2 {
+  height: 40px;
+  width: 40%;
+  vertical-align: middle;
+  color: #727070;
+}
+
+.aicon3 {
+  height: 40px;
+  width: 50%;
+  align-items: center;
+  vertical-align: middle;
+  color: #727070;
+}
+
+.aicon4 {
+  display: none;
+  height: 40px;
+  width: 20%;
+  vertical-align: middle;
+  color: #727070;
+}
+
+.trbox:hover .aicon4 {
+  display: table-cell;
+  overflow: hidden;
 }
 
 tr {
@@ -220,15 +259,21 @@ thead {
   background-color: #fff;
   border-style: solid;
   border-radius: 5px;
+  margin-top: 0px;
+  font-size: 12px;
 }
 
 .trbox {
   border-bottom: 1px solid #616060;
+  transition: transform 5s ease-in-out;
+  justify-content: center;
+  align-items: center;
 }
 
 .trbox:hover {
-  background-color: #fccaca;
+  background-color: #e0e0e0;
   cursor: pointer;
+  border: none;
 }
 
 .trmainbox {
@@ -272,13 +317,37 @@ thead {
   padding: 10px;
 }
 
-///////////////////
-// .todoList {
-//   margin: 16px;
-//   width: 400px;
-// }
-// .todo {
-//   padding: 8px 16px;
-//   background: #eee;
-//   border-bottom: 1px solid #fff;
-// }
+.iconstyle {
+  padding-top: 0px;
+  // display: none;
+}
+
+
+/* スライドアニメーション */
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+/* スライドアニメーションが適用されるクラス */
+.slideUp {
+  animation: slideUp 0.3s ease forwards; /* 0.3秒でアニメーションを実行 */
+}
+
+/* スライドアニメーションが適用されていない状態 */
+.trbox {
+  border-bottom: 1px solid #616060;
+  transition: transform 0.3s ease-in-out; /* スライドアニメーションのためのトランジション */
+  justify-content: center;
+  align-items: center;
+}
+
+.trbox:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+  border: none;
+}

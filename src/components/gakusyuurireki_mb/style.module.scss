@@ -3,6 +3,7 @@ body {
 }
 
 .zenbu {
+  height: 200px;
   background-color: #fff;
 }
 
@@ -136,6 +137,12 @@ td {
   background-color: none;
 }
 
+.tdtext3 {
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+}
+
 .rirekishobox {
   display: flex;
   flex-direction: column;
@@ -148,9 +155,21 @@ td {
 
 .thtext {
   width: 100px;
+  height: 1px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.thtext2 {
+  width: 10%;
   height: 10px;
   padding-left: 20px;
   padding-top: 20px;
+}
+
+.thtext3 {
+  width: 100px;
+  height: 1px;
 }
 
 .aicon {
@@ -206,7 +225,9 @@ thead {
 }
 
 .trmainbox {
+  height: 10px;
   border-bottom: 1px solid #8a8787;
+  margin: 10px;
 }
 
 .popUp {

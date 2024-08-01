@@ -3,6 +3,7 @@ import styles from "./style.module.scss";
 import { Link } from "react-router-dom";
 import Urllink from "../Urllink";
 import "css.gg/icons/css/folder.css";
+import "css.gg/icons/css/chevron-up-o.css";
 import Backbutton from "../Backbutton";
 import { DndContext } from "@dnd-kit/core";
 import { SortableContext } from "@dnd-kit/sortable";
@@ -49,6 +50,17 @@ const Gakusyuurireki_mb = () => {
     }
   };
 
+
+  const handleMoveUp = (id) => {
+    const index = items.findIndex((item) => item.id === id);
+    if (index > 0) {
+      const newList = [...items];
+      const [item] = newList.splice(index, 1);
+      newList.splice(index - 1, 0, item);
+      setItems(newList);
+    }
+  };
+
   return (
     <>
       <div className={styles.zenbu}>
@@ -71,12 +83,15 @@ const Gakusyuurireki_mb = () => {
                   <th className={styles.thtext}>
                     <Urllink initialText="ファイル名" />
                   </th>
-                  <th className={styles.thtext}>
+                  <th className={styles.thtext3}>
                     <Urllink initialText="公開" />
+                  </th>
+                  <th className={styles.thtext2}>
+                    <Urllink initialText="" />
                   </th>
                 </tr>
               </thead>
-              <DndContext onDragOver={handleDragOver}>
+              {/* <DndContext onDragOver={handleDragOver}> */}
                 <tbody className={styles.zenbu}>
                   <SortableContext items={items.map((item) => item.id)}>
                     {items.map((item) => (
@@ -85,12 +100,13 @@ const Gakusyuurireki_mb = () => {
                         id={item.id}
                         label={item.label}
                         date={item.date}
-                        onClick={() => handleClick(item.id)}
+                        onClick={handleClick}
+                        onMoveUp={handleMoveUp}
                       />
                     ))}
                   </SortableContext>
                 </tbody>
-              </DndContext>
+              {/* </DndContext> */}
               {/* <tbody>
                 <tr
                   className={styles.trbox}

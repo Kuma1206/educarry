@@ -32,7 +32,7 @@ const Urllink = ({ initialText }) => {
   };
 
   return (
-    <td
+    <div
       className={styles.thtext}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -109,7 +109,7 @@ const Urllink = ({ initialText }) => {
           />
         </div>
       </CSSTransition>
-    </td>
+    </div>
   );
 };
 
