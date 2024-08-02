@@ -52,7 +52,7 @@ const Profile_mb = () => {
         </div>
       </div>
       <Modal show={showModal} handleClose={handleCloseModal}>
-        <QRcode value="http://localhost:5173/profile" size={256} />
+        <QRcode value="https://educarry-w7df.vercel.app/" size={256} />
       </Modal>
     </>
   );
