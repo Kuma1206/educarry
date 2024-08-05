@@ -14,12 +14,16 @@ br {
 }
 
 .boxmyresumetop {
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-bottom: 20px;
   height: 100vh;
+=======
+  margin-bottom: 20px;
+>>>>>>> 2c60dfe4d204653b19f71fd6c0ce1419125a78a9
 }
 
 .boxmyresume {
@@ -38,6 +42,7 @@ br {
 .bbutton6,
 .bbutton7,
 .bbutton8 {
+<<<<<<< HEAD
   width: 22%;
   aspect-ratio: 1 / 1;
   margin: 10px;
@@ -46,11 +51,21 @@ br {
   border-radius: 5px;
   border-color: #f09090;
   background-color: #5a5757;
+=======
+  width: 17%;
+  aspect-ratio: 1 / 1;
+  margin: 10px;
+  border-style: none;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: #fff;
+>>>>>>> 2c60dfe4d204653b19f71fd6c0ce1419125a78a9
   color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
+<<<<<<< HEAD
   font-size: 13px;
 }
 
@@ -63,6 +78,9 @@ br {
 .bbutton7:hover,
 .bbutton8:hover {
   background-color: #f7b7b7; /* ホバー時の背景色を指定 */
+=======
+  font-size: 12px;
+>>>>>>> 2c60dfe4d204653b19f71fd6c0ce1419125a78a9
 }
 
 .bbutton1 a,
@@ -77,6 +95,7 @@ br {
 }
 
 .bbutton1 {
+<<<<<<< HEAD
   background-color: #fff;
 }
 
@@ -106,6 +125,37 @@ br {
 
 .bbutton8 {
   background-color: #fff;
+=======
+  background-color: #ecadad;
+}
+
+.bbutton2 {
+  background-color: #a0eca4;
+}
+
+.bbutton3 {
+  background-color: #f7e57f;
+}
+
+.bbutton4 {
+  background-color: #92cdf0;
+}
+
+.bbutton5 {
+  background-color: #ecadad;
+}
+
+.bbutton6 {
+  background-color: #a0eca4;
+}
+
+.bbutton7 {
+  background-color: #f7e57f;
+}
+
+.bbutton8 {
+  background-color: #92cdf0;
+>>>>>>> 2c60dfe4d204653b19f71fd6c0ce1419125a78a9
 }
 
 .bbutton:hover {
@@ -127,6 +177,7 @@ br {
   color: black;
   width: auto;
 }
+<<<<<<< HEAD
 
 // style.module.scss
 
@@ -143,3 +194,5 @@ br {
   // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // 軽いシャドウを追加
 }
 
+=======
+>>>>>>> 2c60dfe4d204653b19f71fd6c0ce1419125a78a9
