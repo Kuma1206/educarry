@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from "react";
 import styles from "./style.module.scss";
 import { Link } from "react-router-dom";
@@ -40,16 +39,6 @@ const Resumemenu_mb = () => {
     }
   };
 
-=======
-// rafce リアクトの雛形が作れるショートカットです🤗
-
-import React from "react";
-// cssを紐づける
-import styles from "./style.module.scss";
-import { Link } from "react-router-dom";
-
-const Resumemenu_mb = () => {
->>>>>>> 2c60dfe4d204653b19f71fd6c0ce1419125a78a9
   return (
     <>
       <div className={styles.boxmyresumetop}>
@@ -79,31 +68,19 @@ const Resumemenu_mb = () => {
               フォリオ
             </li>
           </Link>
-<<<<<<< HEAD
         </ul>
         <ul className={styles.boxmyresume}>
           <Link to="/sei_risshu" className={styles.bbutton4}>
             <li>生い立ち</li>
           </Link>
-=======
-          <Link to="/sei_risshu" className={styles.bbutton4}>
-            <li>生い立ち</li>
-          </Link>
-        </ul>
-
-        <ul className={styles.boxmyresume}>
->>>>>>> 2c60dfe4d204653b19f71fd6c0ce1419125a78a9
           <Link to="/rirekisho_read" className={styles.bbutton5}>
             <li>学習記録</li>
           </Link>
           <Link to="/shokumu_keireki" className={styles.bbutton6}>
             <li>資格記録</li>
           </Link>
-<<<<<<< HEAD
         </ul>
         <ul className={styles.boxmyresume}>
-=======
->>>>>>> 2c60dfe4d204653b19f71fd6c0ce1419125a78a9
           <Link
             to="/portfolio"
             className={styles.bbutton7}
@@ -119,7 +96,6 @@ const Resumemenu_mb = () => {
             <li>研究記録</li>
           </Link>
         </ul>
-<<<<<<< HEAD
         <div className={styles.ddbox}>
           <DndContext
             sensors={sensors}
@@ -139,8 +115,6 @@ const Resumemenu_mb = () => {
             </DragOverlay>
           </DndContext>
         </div>
-=======
->>>>>>> 2c60dfe4d204653b19f71fd6c0ce1419125a78a9
       </div>
     </>
   );
