@@ -31,18 +31,10 @@ const SideBar_mb = () => {
             <input type="text" className={styles.question} />
           </li>
           <li className={styles.submenu}>
-<<<<<<< HEAD
             <Link to="/">
               <div className={styles.icon1}></div>
               <i className="gg-home custom-icon"></i>
               <div className={styles.icon2}>HOME</div>
-=======
-            <Link to="/profile">
-              <div className={styles.icon1}>
-                <i className="gg-profile custom-icon"></i>
-              </div>
-              <div className={styles.icon2}>プロフィール</div>
->>>>>>> 2c60dfe4d204653b19f71fd6c0ce1419125a78a9
             </Link>
           </li>
           <li className={styles.submenu}>
@@ -56,11 +48,7 @@ const SideBar_mb = () => {
           <li>
             <Link to="/mypage">
               <div className={styles.icon1}>
-<<<<<<< HEAD
                 <i className="gg-profile custom-icon"></i>
-=======
-                <i className="gg-home custom-icon"></i>
->>>>>>> 2c60dfe4d204653b19f71fd6c0ce1419125a78a9
               </div>{" "}
               <div className={styles.icon2}>アカウント</div>
             </Link>
