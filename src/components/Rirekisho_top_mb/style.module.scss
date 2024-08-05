@@ -1,0 +1,48 @@
+body {
+  background-color: #fff;
+}
+
+.home {
+  display: flex;
+  flex-direction: column; /* 縦方向に並べる */
+  background-color: #fff;
+  color: #000;
+  height: 100vh;
+}
+
+.backbutton {
+  width: 80px;
+}
+
+.mainbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rirekishobox {
+  width: 80%;
+  height: 100px;
+  background-color: rgba(209, 205, 205, 0.3);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.rirekishobox:hover {
+  width: 80%;
+  height: 100px;
+  background-color: rgba(126, 123, 123, 0.3);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}

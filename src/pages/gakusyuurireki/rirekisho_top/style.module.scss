@@ -1,0 +1,12 @@
+body {
+  background-color: #fff;
+}
+
+.home {
+  display: flex;
+  flex-direction: column; /* 縦方向に並べる */
+  background-color: #fff;
+  color: #000;
+  height: 100vh;
+  padding-top: 10px;
+}

@@ -1,0 +1,27 @@
+.header{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgba(204, 230, 255, 0.8);
+  box-shadow: 2px 2px 5px rgba(204, 230, 255, 0.2);
+
+  &__menu{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+
+    p{
+      color: #333;
+      font-size: 16px;
+    }
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap');
+
+body {
+    font-family: "Noto Serif JP", serif;
+}

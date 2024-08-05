@@ -1,0 +1,82 @@
+.sideBar {
+  background: #292828;
+  border-right: 1px solid #d1c9c9;
+  height: 100vh;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  position: sticky;
+
+.kensaku {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
+
+.question {
+  width: 80%;
+  height: 10px;
+}
+
+.submenu {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.icon1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: rgb(175, 179, 179);
+}
+
+.icon3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  color: rgb(175, 179, 179);
+}
+
+.icon2{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.icon4{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 20px;
+}
+
+  .menu {
+    padding: 10px;
+
+    li {
+      margin: 25px 0;
+
+      a {
+        color: #f3f2f2;
+        text-decoration: none;
+        font-size: 16px;
+        // font-weight: bold;
+        // border-bottom: 1px solid #ccc;
+        display: block;
+        display: flex;
+        padding-bottom: 0px;
+        padding-left: 10px;
+
+        &:hover {
+          opacity: 0.3;
+          color: rgb(247, 245, 245);
+        }
+      }
+    }
+  }
+}

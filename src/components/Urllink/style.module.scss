@@ -1,0 +1,95 @@
+.popUp {
+  position: absolute;
+  top: -30px;
+  left: -35px;
+  background-color: none;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.popUpEnter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.popUpEnterActive {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 200ms, transform 200ms;
+}
+
+.popUpExit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.popUpExitActive {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 200ms, transform 200ms;
+}
+
+
+.inputbox {
+  background-color: rgb(80, 79, 79);
+  color: aliceblue;
+}
+
+.popUp2 {
+  position: absolute;
+  top: -30px;
+  left: -35px;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.popUp2Enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.popUp2EnterActive {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 200ms, transform 200ms;
+}
+
+.popUp2Exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.popUp2ExitActive {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 200ms, transform 200ms;
+}
+
+.iconsContainer {
+  position: absolute;
+  right: -5;
+  top: -50%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 5px;
+  background-color: rgb(94, 93, 93);
+  width: auto;
+  height: 25px;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.linkIcon {
+  cursor: pointer;
+  font-size: 16px; /* 必要に応じてサイズを調整 */
+}
+
+.editIcon {
+  cursor: pointer;
+  font-size: 20px; /* 必要に応じてサイズを調整 */
+  transform: scale(-1, 1)
+}

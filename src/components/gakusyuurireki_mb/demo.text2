@@ -1,0 +1,71 @@
+  const [items, setItems] = useState([
+    <tr
+      className={styles.trbox}
+      onClick={() => (window.location.href = "/rirekisho_read")}
+      key="1" // key 属性を追加
+    >
+      <td className={styles.aicon}>
+        <i className="gg-folder custom-icon"></i>
+      </td>
+      <td className={styles.tdtext}>履歴書</td>
+      <td className={styles.tdtext2}>2024-07-18</td>
+      <td className={styles.tdtext3}>
+        <select className={styles.pldown} onClick={(e) => e.stopPropagation()}>
+          <option value="public">公開</option>
+          <option value="private">非公開</option>
+        </select>
+      </td>
+    </tr>,
+    ,
+    <tr
+      className={styles.trbox}
+      onClick={() => (window.location.href = "/shokurekisho_read")}
+      key="2" // key 属性を追加
+    >
+      <td className={styles.aicon}>
+        <i className="gg-folder custom-icon"></i>
+      </td>{" "}
+      <td className={styles.tdtext}>職務経歴書</td>
+      <td className={styles.tdtext2}>2024-07-17</td>
+      <td className={styles.tdtext3}>
+        <select className={styles.pldown} onClick={(e) => e.stopPropagation()}>
+          <option value="public">公開</option>
+          <option value="private">非公開</option>
+        </select>
+      </td>
+    </tr>,
+    <tr
+      className={styles.trbox}
+      onClick={() => (window.location.href = "/portfolio_read")}
+      key="3" // key 属性を追加
+    >
+      <td className={styles.aicon}>
+        <i className="gg-folder custom-icon"></i>
+      </td>{" "}
+      <td className={styles.tdtext}>ポートフォリオ</td>
+      <td className={styles.tdtext2}>2024-07-17</td>
+      <td className={styles.tdtext3}>
+        <select className={styles.pldown} onClick={(e) => e.stopPropagation()}>
+          <option value="public">公開</option>
+          <option value="private">非公開</option>
+        </select>
+      </td>
+    </tr>,
+    <tr
+      className={styles.trbox}
+      onClick={() => (window.location.href = "/oitachi_read")}
+      key="4" // key 属性を追加
+    >
+      <td className={styles.aicon}>
+        <i className="gg-folder custom-icon"></i>
+      </td>{" "}
+      <td className={styles.tdtext}>生い立ち</td>
+      <td className={styles.tdtext2}>2024-07-17</td>
+      <td className={styles.tdtext3}>
+        <select className={styles.pldown} onClick={(e) => e.stopPropagation()}>
+          <option value="public">公開</option>
+          <option value="private">非公開</option>
+        </select>
+      </td>
+    </tr>,
+  ]);

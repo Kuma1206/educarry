@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgb(235, 228, 228);
+  border: none;
+  text-decoration: none;
+}
+
+br {
+  padding-bottom: 10px;
+}
+
+.boxmyresumetop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  height: 100vh;
+}
+
+.boxmyresume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: rgb(8, 8, 8);
+}
+
+.bbutton1,
+.bbutton2,
+.bbutton3,
+.bbutton4,
+.bbutton5,
+.bbutton6,
+.bbutton7,
+.bbutton8 {
+  width: 22%;
+  aspect-ratio: 1 / 1;
+  margin: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #f09090;
+  background-color: #5a5757;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.bbutton1:hover,
+.bbutton2:hover,
+.bbutton3:hover,
+.bbutton4:hover,
+.bbutton5:hover,
+.bbutton6:hover,
+.bbutton7:hover,
+.bbutton8:hover {
+  background-color: #f7b7b7; /* ホバー時の背景色を指定 */
+}
+
+.bbutton1 a,
+.bbutton2 a,
+.bbutton3 a,
+.bbutton4 a,
+.bbutton5 a,
+.bbutton6 a,
+.bbutton7 a,
+.bbutton8 a {
+  color: #000;
+}
+
+.bbutton1 {
+  background-color: #fff;
+}
+
+.bbutton2 {
+  background-color: #fff;
+}
+
+.bbutton3 {
+  background-color: #fff;
+}
+
+.bbutton4 {
+  background-color: #fff;
+}
+
+.bbutton5 {
+  background-color: #fff;
+}
+
+.bbutton6 {
+  background-color: #fff;
+}
+
+.bbutton7 {
+  background-color: #fff;
+}
+
+.bbutton8 {
+  background-color: #fff;
+}
+
+.bbutton:hover {
+  // width: 10%;
+  // height: 50px;
+  // border-radius: 5px;
+  background-color: rgb(211, 123, 123);
+  color: aliceblue;
+}
+
+.btext {
+  width: auto;
+  background-color: transparent;
+  color: black;
+}
+
+.btext:hover {
+  background-color: transparent;
+  color: black;
+  width: auto;
+}
+
+// style.module.scss
+
+.ddbox {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  // flex-direction: column;
+  gap: 10px; // アイテム間のスペース
+  padding: 20px; // コンテナ内の余白
+  border-radius: 8px; // コンテナの角を丸くする
+  // border: 1px solid #ddd; // コンテナのボーダー
+  // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // 軽いシャドウを追加
+}
+

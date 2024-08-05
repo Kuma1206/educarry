@@ -1,0 +1,27 @@
+.ddbox {
+  width: 100%; // 幅を100%にして親要素に合わせる
+  aspect-ratio: 1 / 1; // 縦横比を1:1にする
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  cursor: grab;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 13px;
+  text-align: center; // テキストを中央に配置
+  overflow: hidden; // テキストがはみ出さないようにする
+}
+
+.ddbox:hover {
+  background-color: rgb(245, 207, 237);
+  border: none;
+}
+
+.ddbox.dragging {
+  opacity: 0.5;
+  background-color: #b94b87;
+  border: none;
+}
